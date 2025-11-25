@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "GraphAlignmentViewer"
+version = "0.0.1"
+description = "A Python project for viewing graph alignments"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.10.7"
+numpy = "^2.0.0"
+pysam = "^0.23.3"
+PyYAML = "^6.0.3"
+
+[tool.poetry.scripts]
+gaviewr = "GraphAlignmentViewer:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
