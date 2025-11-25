@@ -3,8 +3,8 @@ name = "GraphAlignmentViewer"
 version = "0.0.1"
 description = "A Python project for viewing graph alignments"
 authors = ["Your Name <your.email@example.com>"]
+packages = [{ include = "GraphAlignmentViewer", from = "src" }]
 readme = "README.md"
-packages = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
